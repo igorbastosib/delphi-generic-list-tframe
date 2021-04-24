@@ -1,0 +1,33 @@
+inherited FilPessoaDados: TFilPessoaDados
+  Size.Height = 43.000000000000000000
+  inherited lytBackground: TLayout
+    Size.Height = 43.000000000000000000
+    OnPainting = lytBackgroundPainting
+    inherited rctBackground: TRectangle
+      Fill.Color = claBlue
+      Size.Height = 43.000000000000000000
+    end
+    inherited rctClient: TRectangle
+      Size.Height = 33.000000000000000000
+      object lblFirstName: TLabel
+        Align = Top
+        Size.Width = 290.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'lblFirstName'
+        TabOrder = 0
+        TabStop = False
+      end
+      object lblBirthday: TLabel
+        Align = Top
+        Position.Y = 17.000000000000000000
+        Size.Width = 290.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'lblBirthday'
+        TabOrder = 1
+        TabStop = False
+      end
+    end
+  end
+end
