@@ -1,3 +1,24 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+Win32/
+OSX32/
+iOSSimulator/
+iOSDevice64/
+*.db-journal
+Certificados/*
+DB/IBNFeDB1.db
+Android/
+Erros/
+templates/
+js/
+images/
+css/
+DB/Backup
+
+
+# Created by https://www.gitignore.io/api/delphi
+# Edit at https://www.gitignore.io/?templates=delphi
+
+### Delphi ###
 # Uncomment these types if you want even more clean repository. But be careful.
 # It can make harm to an existing project source. Read explanations below.
 #
@@ -60,6 +81,12 @@
 # Delphi history and backups
 __history/
 __recovery/
+Audios/
+Win32/
+Win64/
+Android/
+Android64/
+iOSDevice64/
 *.~*
 
 # Castalia statistics file (since XE7 Castalia is distributed with Delphi)
@@ -67,3 +94,5 @@ __recovery/
 
 # Boss dependency manager vendor folder https://github.com/HashLoad/boss
 modules/
+
+# End of https://www.gitignore.io/api/delphi

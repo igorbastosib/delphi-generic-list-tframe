@@ -1,0 +1,15 @@
+object FrameListBase: TFrameListBase
+  Size.Width = 320.000000000000000000
+  Size.Height = 401.000000000000000000
+  Size.PlatformDefault = False
+  object vtsList: TVertScrollBox
+    Align = Contents
+    Size.Width = 320.000000000000000000
+    Size.Height = 401.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    TabStop = False
+    Viewport.Width = 320.000000000000000000
+    Viewport.Height = 401.000000000000000000
+  end
+end
